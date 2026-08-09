@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Три способи підключення стилів</title>
+    
+    <!-- 2. Спосіб: В розділі HEAD (внутрішні/embedded стилі) -->
+    <style>
+        h2 {
+            color: green;
+            font-size: 24px;
+        }
+    </style>
+
+    <!-- 3. Спосіб: Підключення зовнішнього .css файлу -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 1. Спосіб: В середині специфічного тегу (inline стилі) -->
+    <h1 style="color: blue; text-align: center;">Це заголовок з inline-стилем</h1>
+
+    <h2>Це заголовок із тегу STYLE у розділі HEAD</h2>
+
+    <p>Цей абзац стилізовано за допомогою зовнішнього файлу style.css.</p>
+
+</body>
+</html>
